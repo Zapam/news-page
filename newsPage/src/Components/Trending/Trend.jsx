@@ -1,14 +1,25 @@
-import React from 'react'
-import ImageComponent from './ImgaeComponent'
+import React from "react";
+import ImageComponent from "./ImgaeComponent";
 
 const Trend = () => {
   return (
     <div>
-      <div>
-        <ImageComponent />
+      <ImageComponent />
+      <div className="grid md:grid-cols-2">
+        <h1 className="text-gray-950 font-bold text-[3rem] mt-3 mx-4">
+          The Bright Future of Web 3.0?
+        </h1>
+        <div>
+          <p className="text-gray-500 p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta
+            qui corporis itaque, aliquam tempore, maiores alias obcaecati, optio
+            magnam id eum maxime ullam omnis vel.
+          </p>
+          <button className="px-4 py-3 m-3 bg-red-400 text-white font-bold">READ MORE</button>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Trend
+export default Trend;

@@ -1,18 +1,20 @@
 import React from 'react';
+import imageDesktop from './image-web-3-desktop.jpg'
+import imageMobile from './image-web-3-mobile.jpg'
 
 const ImageComponent = () => {
   return (
-    <div className="bg-gray-100 h-screen flex justify-center items-center">
+    <div>
       {/* Show first image on medium and large screens */}
       <img
-        src="/home/amirreza/Desktop/Projects/Projects/news page/news-page/newsPage/src/assets/image-web-3-desktop.jpg"
-        className="hidden md:block max-w-full h-auto"
+        src={imageDesktop}
+        className="hidden md:block max-w-full h-auto px-4 pt-3 rounded"
       />
 
       {/* Show second image on small screens */}
       <img
-        src='newsPage/src/Components/Trending/image-web-3-mobile.jpg'
-        className="md:hidden max-w-full h-auto"
+        src={imageMobile}
+        className="md:hidden px-4 pt-3 rounded"
       />
     </div>
   );
