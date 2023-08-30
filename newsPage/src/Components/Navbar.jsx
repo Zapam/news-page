@@ -17,19 +17,19 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex space-x-4">
-          <a href="#" className="text-gray-800">
+          <a href="#" className="text-gray-800 hover:text-red-500 transition duration-300 ease-in-out">
             Home
           </a>
-          <a href="#" className="text-gray-800">
+          <a href="#" className="text-gray-800 hover:text-red-500 transition duration-300 ease-in-out">
             New
           </a>
-          <a href="#" className="text-gray-800">
+          <a href="#" className="text-gray-800 hover:text-red-500 transition duration-300 ease-in-out">
             Popular
           </a>
-          <a href="#" className="text-gray-800">
+          <a href="#" className="text-gray-800 hover:text-red-500 transition duration-300 ease-in-out">
             Trending
           </a>
-          <a href="#" className="text-gray-800">
+          <a href="#" className="text-gray-800 hover:text-red-500 transition duration-300 ease-in-out">
             Categories
           </a>
         </div>

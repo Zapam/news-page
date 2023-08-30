@@ -15,7 +15,7 @@ const Trend = () => {
             qui corporis itaque, aliquam tempore, maiores alias obcaecati, optio
             magnam id eum maxime ullam omnis vel.
           </p>
-          <button className="px-4 py-3 m-3 bg-red-400 text-white font-bold">READ MORE</button>
+          <button className="px-4 py-3 m-3 bg-red-400 text-white font-bold hover:bg-gray-900 transition duration-300 ease-in-out">READ MORE</button>
         </div>
       </div>
     </div>
