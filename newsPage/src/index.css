@@ -1,7 +1,11 @@
 /* src/components/MyComponent.css */
 
+/* Import Tailwind CSS styles */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
 /* Your custom styles */
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif; /* Use the font family name after installing it */
+}

@@ -8,9 +8,14 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="md:grid md:grid-cols-2">
-        <Trend className="md:col-span-3" />
-        <New className="md:col-span-1" />
+      <div className="md:flex">
+        <div  className="md:w-[75%]">
+          {" "}
+          <Trend />
+        </div>
+        <div className="md:w-[25%] h-[]">
+          <New />
+        </div>
       </div>
       <Popular />
     </div>

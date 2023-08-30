@@ -3,7 +3,7 @@ import Sections from "./Sections";
 
 const New = () => {
   return (
-    <div className="bg-[rgb(4,2,27)] mx-6 mt-6 md:float-right ">
+    <div className="bg-[rgb(4,2,27)] md:mx-3 mx-6 mt-6 md:mt-3">
       <h1 className="text-yellow-300 font-bold text-[2rem] pt-6 pl-6">NEW</h1>
       <Sections
         title="Hydrogen VS Elctric Cars"
